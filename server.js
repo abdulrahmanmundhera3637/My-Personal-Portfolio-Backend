@@ -10,7 +10,7 @@ const appRoutes = require('./routes/routes');
 
 // Middleware
 app.use(cors({
-    origin: 'http://localhost:3000', 
+    origin: 'https://my-personal-portfolio-frontend-qekm.vercel.app', 
     methods: ['GET', 'POST'],  
     credentials: true 
 }));
